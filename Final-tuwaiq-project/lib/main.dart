@@ -1,0 +1,29 @@
+import 'package:dental_proj/screens/splash_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:get_storage/get_storage.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await GetStorage.init();
+  final box = GetStorage();
+  box.erase();
+  await Supabase.initialize(
+    url: "https://mguwylgfdatsdadqsffy.supabase.co",
+    anonKey:
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ndXd5bGdmZGF0c2RhZHFzZmZ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTMzODA4ODgsImV4cCI6MjAwODk1Njg4OH0.InTs-O2OiTGEUoyvGZKNESQCJvxGOLx6NavNB5o93WY",
+  );
+  runApp(const MainApp());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+    );
+  }
+}
