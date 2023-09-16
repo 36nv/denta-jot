@@ -27,6 +27,6 @@ Tired of forgetting your dental procedures and struggling to recall them? Say he
 
 ### Team members
 - [Abdulelah Aljuraysi](https://github.com/36nv)  Backend ,, - [CV](CVs/AbdulelahAljuraysiCV.pdf)  
-- [Reef Alhesayani](https://github.com/reef-mohammad) Backend,, - [CV](CVs/ReefAlhesayaniCV-IT.pdf)  
+- [Reef Alhesayani](https://github.com/reef-mohammad) Backend,, - [CV](CVs/ReefAlhesayani-CV-IT.pdf)  
 - [Hessah almulhim](https://github.com/hsmulhim) Frontend,, - [CV](CVs/CV-HUSSAH-CIS.pdf)  
 - [Maha Altamim](https://github.com/iMaha0) Frontend,, - [CV](CVs/MahaAltamim.pdf)  
